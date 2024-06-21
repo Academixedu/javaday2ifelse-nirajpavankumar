@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class StudentGradeEvaluation {
     public static void main(String[] args) {
         Scanner in  = new Scanner(System.in);
-        System.out.print("Enter your name ");
+        System.out.print("Enter your name: ");
         String name = in.nextLine();
-        System.out.println("enter their age ");
+        System.out.println("enter their age:");
         int age =in.nextInt();
         System.out.print("Enter your exam score: ");
         int  score = in.nextInt();
