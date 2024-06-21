@@ -1,4 +1,4 @@
-
+package com .example;
 
 import java.util.Scanner;
 
@@ -10,7 +10,10 @@ public class StudentGradeEvaluation {
         System.out.println("enter their age ");
         int age =in.nextInt();
         System.out.print("Enter your exam score: ");
-        double score = in.nextDouble();
+        int  score = in.nextInt();
+        System.out.println("Name:"+name);
+        System.out.println("Age:"+age);
+        System.out.println("score:"+score);
         if (score >= 90) {
             System.out.println("Grade: A");
         } else if (score >=80) {
@@ -22,9 +25,7 @@ public class StudentGradeEvaluation {
         } else {
             System.out.println("Grade: F");
         }
-         System.out.println("Name:"+name);
-         System.out.println("Age:"+age);
-         System.out.println("score:"+score);
+         
         
 
        
